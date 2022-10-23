@@ -2,8 +2,10 @@
   display: flex;
   height: 77vh;
   margin-top: 6rem;
+  font-family: "Shadows Into Light", cursive;
+  /* font-weight: normal; */
+  font-size: 25px;
 }
-
 .intro-left {
   display: flex;
   position: relative;
@@ -61,7 +63,7 @@
   object-fit: scale-down;
 }
 
-.purple-blur {
+.blue-blur {
   position: absolute;
   width: 22rem;
   height: 14rem;
@@ -73,7 +75,7 @@
   left: 56%;
   filter: blur(72px);
 }
-.blue-blur {
+.orange-blur {
   position: absolute;
   width: 22rem;
   height: 14rem;
@@ -85,4 +87,28 @@
   height: 11rem;
   left: -9rem;
   filter: blur(72px);
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+
+  .intro-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+  .blue-blur {
+    display: none;
+  }
+
+  .orange-blur {
+    display: none;
+  }
+
+  .intro img {
+    transform: scale(0.5);
+  }
 }

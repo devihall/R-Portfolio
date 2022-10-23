@@ -1,12 +1,16 @@
 .nav-wrapper{
-    height: 16vh;
+    
     display: flex;
     justify-content: space-between;
+    /* font-family: 'Josefin', cursive; */
+      /* font-weight: normal; */
+      font-size: 25px; 
 }
 
 .nav-left{
-    flex:1;
-    align-items: center;
+    height: 16vh;
+    flex:4;
+    align-items: left;
     display: flex;
     gap: 2rem;
     flex-direction: column;
@@ -17,12 +21,13 @@
     font-size: 40px;
     font-weight: bold;
     color: var(--violet);
-    text-shadow: 30px 23px 5px rgba(251, 161, 40, 0.42);
+    /* text-shadow: 30px 23px 5px rgba(251, 161, 40, 0.42); */
 }
 
 .nav-right{
+    height: 16vh;
     display: flex;
-    flex:5;
+    flex:3;
     align-items: center;
     justify-content: center;
     font-weight: bold;
@@ -44,6 +49,12 @@
 
 .nav-list>ul>li:hover{
     color: var(--violet);
+}
+
+.nav-button {
+  flex: 1;
+  font-size: 25px;
+  
 }
 
 .nav-button:hover{

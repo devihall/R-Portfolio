@@ -15,9 +15,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light'); 
 
-.font-link {
+/* .font-link {
   font-family: 'Shadows Into Light', cursive;
-} 
+}  */
 
 .App{
     padding: 0.5rem 3.5rem;
@@ -25,11 +25,11 @@
     color: var(--black);    
 }
 
-*{
+/* {
   font-family: 'Shadows Into Light', cursive;
       /* font-weight: normal; */
-      font-size: 25px; 
-    }
+      /* font-size: 25px;  */
+    /* } */ 
     
 body{
       margin: 0;
@@ -40,7 +40,8 @@ body{
   border:none;
   color: white;
   font-size: 20px;
-  padding: 11px 26px 11px 26px;
+  padding: 10px 26px 11px 26px;
   background: linear-gradient(180deg, #2c8af5 26.71%, #3c1ffc 99.36%);
   box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+  height: 5rem;
 }

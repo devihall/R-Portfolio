@@ -24,7 +24,7 @@ return (
     </div>
     <div className="intro-right">
       <img className="intro-pic" src={introPic} alt="MERN logos"></img>
-      <div className="purple-blur"></div>
+      <div className="orange-blur"></div>
       <div className="blue-blur"></div>
     </div>
   </div>
