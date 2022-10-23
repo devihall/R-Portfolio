@@ -2,6 +2,7 @@ import React from "react";
 import './Intro.css'
 import GitHub from '../../img/github.png'
 import LinkedIn from '../../img/linkedin.png'
+import introPic from '../../img/intro-pic.png'
 
 const Intro = ()=>{
 return (
@@ -12,9 +13,20 @@ return (
         <span>Dévi !</span>
         <span>I develop software and the web.</span>
       </div>
-      <img src={GitHub} alt="GitHub icon" />
+      <div className="intro-icons">
+        <a href="https://github.com/devihall">
+          <img src={GitHub} alt="GitHub icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/devihall/">
+          <img src={LinkedIn} alt="LinkedIn icon" />
+        </a>
+      </div>
     </div>
-    <div className="intro-right">I am the right side</div>
+    <div className="intro-right">
+      <img className="intro-pic" src={introPic} alt="MERN logos"></img>
+      <div className="purple-blur"></div>
+      <div className="blue-blur"></div>
+    </div>
   </div>
 );
 }
