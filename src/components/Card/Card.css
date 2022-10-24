@@ -1,7 +1,7 @@
 .card {
   /* width: 20rem; */
-  width: 15rem;
-  height: 23rem;
+  width: 30rem;
+  height: 39rem;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -12,8 +12,10 @@
   border: 7px solid var(--orangeCard);
   box-shadow: var(--smboxShadow);
   border-radius: 20px;
-  padding: 5px 26px 2.5rem 26px;
+  padding: 12px 26px 3rem 26px;
 }
+
+
 
 .card span:nth-of-type(1) {
   color: var(--black);
@@ -35,3 +37,6 @@
   color: var(--blue);
   font-weight: bold;
 }
+/* .p-1-card-wrapper{
+    left: 29rem;
+} */
