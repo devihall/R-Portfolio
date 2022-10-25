@@ -97,7 +97,7 @@
   }
 
   .intro-right {
-    transform: scale(0.8);
+    transform: scale(1.7);
     left: -3rem;
   }
   .blue-blur {
@@ -108,7 +108,7 @@
     display: none;
   }
 
-  .intro img {
+  .intro-pic {
     transform: scale(0.5);
   }
 }
