@@ -4,6 +4,7 @@ import Card from "../Card/Card.js";
 import ProjectOne from "../../img/project-1.png";
 import ProjectTwo from "../../img/project-2.png";
 import ProjectThree from "../../img/project-3.png";
+import ProjectFour from "../../img/project-4.png";
 
 const Projects = () => {
   return (
@@ -26,7 +27,7 @@ const Projects = () => {
           />
         </div>
 
-        <div style={{ top: "16rem", left:"-10rem" }}>
+        <div style={{ top: "16rem", left: "-10rem" }}>
           <Card
             projectPicture={ProjectTwo}
             title={"Note Taker App"}
@@ -34,14 +35,21 @@ const Projects = () => {
           />
         </div>
 
-        <div style={{ top: "70rem", left:"-20rem" }}>
-        <Card
-          projectPicture={ProjectThree}
-          title={"Smart Webcam"}
-          technologies={"TensorFlow, JavaScript, HTML"}
-        />
+        <div style={{ top: "70rem", left: "-20rem" }}>
+          <Card
+            projectPicture={ProjectThree}
+            title={"Smart Webcam"}
+            technologies={"TensorFlow, JavaScript, HTML"}
+          />
         </div>
 
+        <div style={{ top: "55rem", left: "37rem" }}>
+          <Card
+            picture={ProjectFour}
+            title={"Employee Tracker"}
+            technologies={"SQL, Inquirer, Node"}
+          />
+        </div>
       </div>
     </div>
   );
