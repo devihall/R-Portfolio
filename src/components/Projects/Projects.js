@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="cards">
         <div style={{ left: "38rem" }}>
           <Card
-            firstProject={ProjectOne}
+            projectPicture={ProjectOne}
             title={"ZooKeepr"}
             technologies={"Node, Express, JavaScript"}
           />
@@ -28,7 +28,7 @@ const Projects = () => {
 
         <div style={{ top: "16rem", left:"-10rem" }}>
           <Card
-            secondProject={ProjectTwo}
+            projectPicture={ProjectTwo}
             title={"Note Taker App"}
             technologies={"Node, Express, JavaScript"}
           />
@@ -36,7 +36,7 @@ const Projects = () => {
 
         <div style={{ top: "70rem", left:"-20rem" }}>
         <Card
-          thirdProject={ProjectThree}
+          projectPicture={ProjectThree}
           title={"Smart Webcam"}
           technologies={"TensorFlow, JavaScript, HTML"}
         />
