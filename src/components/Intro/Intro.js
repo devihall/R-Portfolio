@@ -15,10 +15,14 @@ return (
         <span>I develop software and the web.</span>
       </div>
       <div className="intro-icons">
-        <a href="https://github.com/devihall">
+        <a href="https://github.com/devihall" target="_blank" rel="noreferrer">
           <img src={GitHub} alt="GitHub icon" />
         </a>
-        <a href="https://www.linkedin.com/in/devihall/">
+        <a
+          href="https://www.linkedin.com/in/devihall/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={LinkedIn} alt="LinkedIn icon" />
         </a>
       </div>
