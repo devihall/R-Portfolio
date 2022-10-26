@@ -4,31 +4,22 @@ import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
 // import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
 // import Contact from "./components/Contact/Contact";
 
 function App() {
-  const [projectsSelected, setProjectsSelected] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("home");
   
-  
-
   return (
     <div className="App">
       <Navbar
-        projectsSelected={projectsSelected}
-        setProjectsSelected={setProjectsSelected}>
-      
-      </Navbar>
-
+        selectedOption={selectedOption}
+        setSelectedOption={setSelectedOption}
+      />
       <main>
-        {!projectsSelected ? (
-          <>
-            <Intro />
-          </>
-        ) : (
-          <Projects></Projects>
-        )}
-
-        
+        {selectedOption === "home" && <Intro />}
+        {selectedOption === "aboutme" && <About />}
+        {selectedOption === "projects" && <Projects />}
       </main>
     </div>
   );
