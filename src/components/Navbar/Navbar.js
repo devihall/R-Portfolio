@@ -22,7 +22,11 @@ const Navbar = (props) => {
           </ul>
         </div>
       </div>
-      <button className="button nav-button">Contact Me</button>
+      <button
+        className="button nav-button"
+        onClick={() => setSelectedOption("contact")}>
+        Contact Me
+      </button>
     </div>
   );
 };
