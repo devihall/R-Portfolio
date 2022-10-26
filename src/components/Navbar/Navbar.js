@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import Resume from "./DHallRESUME2022 .pdf";
+
 
 const Navbar = (props) => {
   const { selectedOption, setSelectedOption } = props;
@@ -18,7 +20,7 @@ const Navbar = (props) => {
           <ul>
             <li onClick={() => setSelectedOption("aboutme")}>About Me</li>
             <li onClick={() => setSelectedOption("projects")}>Projects</li>
-            <li>Resume</li>
+            <li><a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
           </ul>
         </div>
       </div>
