@@ -1,5 +1,5 @@
 {
-  "homepage": "http://devihall.github.io/R-Portfolio",
+  "homepage": "http://devihall.github.io/R-Portfolio/",
   "name": "r-portfolio",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -11,8 +11,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
