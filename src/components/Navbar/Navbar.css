@@ -5,6 +5,9 @@
       /* font-weight: normal; */
       font-size: 25px; 
 }
+.home-icon{
+    transform: scale(2);
+}
 
 .nav-left{
     height: 16vh;

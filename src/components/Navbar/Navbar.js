@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import Resume from "./DHallRESUME2022 .pdf";
-
+import homeIcon from '../../img/home-icon.png'
 
 const Navbar = (props) => {
   const { selectedOption, setSelectedOption } = props;
@@ -10,7 +10,7 @@ const Navbar = (props) => {
       <div className="nav-left">
         <div className="nav-name">
           <a data-testid="link" href="/">
-            <img src={LinkedIn} alt="LinkedIn icon" />
+            <img className="home-icon" src={homeIcon} alt="Home icon" />
           </a>
         </div>
       </div>
