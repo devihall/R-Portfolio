@@ -10,8 +10,8 @@ return (
   <div className="intro">
     <div className="intro-left">
       <div className="intro-name">
-        <span>Hi! I'm</span>
-        <span>Dévi !</span>
+        <span>Hi ! I'm</span>
+        <span>Dévi Hall </span>
         <span>I develop software and the web.</span>
       </div>
       <div className="intro-icons">

@@ -1,5 +1,4 @@
 .nav-wrapper{
-    
     display: flex;
     justify-content: space-between;
     /* font-family: 'Josefin', cursive; */
@@ -18,6 +17,7 @@
 }
 
 .nav-name{
+    
     font-size: 40px;
     font-weight: bold;
     color: var(--violet);
@@ -49,6 +49,10 @@
 
 .nav-list>ul>li:hover{
     color: var(--violet);
+}
+
+.nav-list>ul>li{
+    text-decoration: none;
 }
 
 .nav-button {

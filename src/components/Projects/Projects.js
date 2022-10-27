@@ -45,7 +45,7 @@ const Projects = () => {
 
         <div style={{ top: "55rem", left: "37rem" }}>
           <Card
-            picture={ProjectFour}
+            projectPicture={ProjectFour}
             title={"Employee Tracker"}
             technologies={"SQL, Inquirer, Node"}
           />
