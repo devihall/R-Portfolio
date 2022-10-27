@@ -4,10 +4,12 @@
     /* font-family: 'Josefin', cursive; */
       /* font-weight: normal; */
       font-size: 25px; 
+      
 }
 
 .home-icon{
     transform: scale(2);
+    /* text-shadow: 30px 23px 5px rgba(251, 161, 40, 0.42); */
 }
 
 .nav-left{
@@ -25,10 +27,11 @@
     font-size: 40px;
     font-weight: bold;
     color: var(--violet);
-    /* text-shadow: 30px 23px 5px rgba(251, 161, 40, 0.42); */
+    
 }
 
 .nav-right{
+    
     height: 16vh;
     display: flex;
     flex:3;
@@ -40,11 +43,13 @@
 }
 
 .nav-list{
+    
     display: flex;
     flex: 10;
 }
 
 .nav-list>ul{
+    
     list-style: none;
     display: flex;
     gap:2rem;
@@ -55,10 +60,14 @@
     color: var(--violet);
 }
 
-.nav-list>ul>li{
-    text-decoration: none;
+.nav-list>ul>li>a{
+    
+     text-decoration: none; 
+     color:black
 }
-
+.nav-list>ul>li>a:hover{
+    color: var(--violet);
+}
 .nav-button {
   flex: 1;
   font-size: 25px;
