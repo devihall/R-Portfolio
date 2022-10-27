@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "b7d499babf0a797ca9ca",
-    "url": "/R-Portfolio/static/css/main.50f47bab.chunk.css"
+    "revision": "fb43be79a39d76d223fe",
+    "url": "/R-Portfolio/static/css/main.4859db36.chunk.css"
   },
   {
-    "revision": "b7d499babf0a797ca9ca",
-    "url": "/R-Portfolio/static/js/main.b7d499ba.chunk.js"
+    "revision": "fb43be79a39d76d223fe",
+    "url": "/R-Portfolio/static/js/main.fb43be79.chunk.js"
   },
   {
-    "revision": "ce8c896f80c757d5966b",
-    "url": "/R-Portfolio/static/js/1.ce8c896f.chunk.js"
+    "revision": "67fcaf3d5bff213617b5",
+    "url": "/R-Portfolio/static/js/1.67fcaf3d.chunk.js"
   },
   {
     "revision": "d146c576070ac28f1ffa",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/R-Portfolio/static/media/project-4.787cbff6.png"
   },
   {
-    "revision": "fbb2bc661815eea990c208a11cdd6922",
+    "revision": "f4d42666d4792f01d1e433bfc8d328ad",
     "url": "/R-Portfolio/index.html"
   }
 ];
