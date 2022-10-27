@@ -5,6 +5,7 @@ import ProjectOne from "../../img/project-1.png";
 import ProjectTwo from "../../img/project-2.png";
 import ProjectThree from "../../img/project-3.png";
 import ProjectFour from "../../img/project-4.png";
+import gitHub from "../../img/github.png";
 
 const Projects = () => {
   return (
@@ -21,6 +22,7 @@ const Projects = () => {
       <div className="cards">
         <div style={{ left: "38rem" }}>
           <Card
+            gitHub={gitHub}
             projectPicture={ProjectOne}
             title={"ZooKeepr"}
             technologies={"Node, Express, JavaScript"}
@@ -31,8 +33,8 @@ const Projects = () => {
           <Card
             projectPicture={ProjectTwo}
             title={"Note Taker App"}
-            technologies={"Node, Express, JavaScript"}
-          />
+            technologies={"Node, Express, JavaScript"}/>
+      
         </div>
 
         <div style={{ top: "70rem", left: "-20rem" }}>
